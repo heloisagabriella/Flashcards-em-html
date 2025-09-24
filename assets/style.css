@@ -49,3 +49,28 @@ footer p{
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+:croot{
+--text-color:#DBE4EF;
+--card-fronnt-color:#144480
+--card-back-color:#00F4BF;
+}
+.cartão_conteudo_pergunta p{
+    color: var(--text-color);
+    font-weight: 500;
+}
+.cartão_conteudo_resposta p {
+    color:var(--card-back-color);
+    font: weight:700;
+}
+.cartão:hover .cartão_conteudo{
+    transform: rotate Y(180deg);
+}
+.cartão_conteudo_pergunta,
+.cartão_conteudo_resposta{
+    backaface-visibility:hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    .cartão_conteudo_resposta{
+        transform: rotateY(180deg);
+    }
