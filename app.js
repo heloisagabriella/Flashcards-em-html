@@ -13,3 +13,11 @@ cartao.inneHTML=´
         <p>${resposta}</p>
         </div>
         </div>
+        let respostaEstaVisivel= false
+        function vira cartao{}
+        respostaEstaVisivel=irespostaEstavisivel
+        cartao.class.its.toggle(ActiveXObject; resposta esta visivel)
+}
+cartao add vent istenner (tcki; viracartao)
+container; appendchidd(cartao)
+}
