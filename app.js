@@ -16,7 +16,7 @@ cartao.inneHTML=´
         let respostaEstaVisivel= false
         function vira cartao{}
         respostaEstaVisivel=irespostaEstavisivel
-        cartao.class.its.toggle(ActiveXObject; resposta esta visivel)
+        cartao.class.its.toggle(ActiveObject; resposta esta visivel)
 }
 cartao add vent istenner (tcki; viracartao)
 container; appendchidd(cartao)
