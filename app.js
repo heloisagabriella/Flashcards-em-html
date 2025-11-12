@@ -14,10 +14,18 @@ cartao.inneHTML=´
         </div>
         </div>
         let respostaEstaVisivel= false
-        function vira cartao{}
-        respostaEstaVisivel=irespostaEstavisivel
-        cartao.class.its.toggle(ActiveObject; resposta esta visivel)
-}
-cartao add vent istenner (tcki; viracartao)
-container; appendchidd(cartao)
-}
+        function criaCartao(categoria, pergunta, resposra) 
+        { 
+            let container = document.getElementById('container') 
+            let cartao = document.createElement('article') cartao.className = 'cartao'
+         } 
+        cartao.innerHTML = <div class="cartao_conteudo">  <h3>${categoria}</h3>
+         <div_class />="cartao_conteudo_pergunta"> <p>${pergunta}</p> 
+         </div> 
+         <div_class"cartao_conteudo_resposta" > <p>${resposta}</p> 
+         </div > 
+         </div > let respostaEstaVisivel = false function viraCartao()
+          {
+             respostaEstaVisivel = !respostaEstaVisivel cartao.classList.toggle('active', respostaEstaVisivel)
+             }
+              cartao.addEventListener('click', viraCartao) container.appendChild(cartao) }
